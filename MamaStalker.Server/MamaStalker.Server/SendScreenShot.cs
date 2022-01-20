@@ -16,7 +16,7 @@ namespace MamaStalker.Server
         }
         public void Execute(TcpClient client)
         {
-            _sender.SendData(client, _capturer.Capture());
+            _sender.SendImage(client, _capturer.Capture());
         }
     }
 }
