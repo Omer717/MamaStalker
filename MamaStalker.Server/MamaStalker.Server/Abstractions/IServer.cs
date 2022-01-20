@@ -1,4 +1,4 @@
-﻿using System.Net.Sockets;
+﻿using System.Timers;
 
 namespace MamaStalker.Server.Abstractions
 {
@@ -6,6 +6,6 @@ namespace MamaStalker.Server.Abstractions
     {
         void Start();
         void WaitForNewClients();
-        void CreateClientThread(TcpClient socket);
+        void ExecuteServerAction(object sender, ElapsedEventArgs e);
     }
 }
