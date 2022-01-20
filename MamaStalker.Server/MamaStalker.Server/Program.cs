@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MamaStalker.Server
+﻿namespace MamaStalker.Server
 {
     internal class Program
     {

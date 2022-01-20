@@ -1,7 +1,6 @@
 ﻿using MamaStalker.Capturer.Abstractions;
 using MamaStalker.Server.Abstractions;
 using System.Net.Sockets;
-using System.Windows;
 
 namespace MamaStalker.Server
 {
