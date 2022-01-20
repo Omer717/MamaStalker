@@ -6,7 +6,9 @@ namespace MamaStalker.Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var serverFactory = new ServerFactory();
+            var server = serverFactory.Create(int.Parse(args[0]), int.Parse(args[1]));
+            server.Start();
         }
     }
 }

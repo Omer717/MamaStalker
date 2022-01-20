@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MamaStalker.Server", "MamaStalker.Server\MamaStalker.Server.csproj", "{0ECEEA74-B4E0-437B-A642-78C291961DFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MamaStalker.Capturer", "MamaStalker.Capturer\MamaStalker.Capturer.csproj", "{FF4C97A1-BFAE-462A-83EE-3E05F814DFD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0ECEEA74-B4E0-437B-A642-78C291961DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECEEA74-B4E0-437B-A642-78C291961DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECEEA74-B4E0-437B-A642-78C291961DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4C97A1-BFAE-462A-83EE-3E05F814DFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4C97A1-BFAE-462A-83EE-3E05F814DFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4C97A1-BFAE-462A-83EE-3E05F814DFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4C97A1-BFAE-462A-83EE-3E05F814DFD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

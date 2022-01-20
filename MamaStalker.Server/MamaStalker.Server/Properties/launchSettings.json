@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MamaStalker.Server": {
+      "commandName": "Project"
+    },
+    "Debugging": {
+      "commandName": "Project",
+      "commandLineArgs": "1337 5000"
+    }
+  }
+}
