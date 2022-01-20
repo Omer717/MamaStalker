@@ -6,7 +6,9 @@ namespace MamaStalker.Client
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var factory = new ClientWrapperFactory();
+            var clientWrapper = factory.Create(args[0], int.Parse(args[1]));
+            clientWrapper.RunMamaStalkerClient();
         }
     }
 }
